@@ -1,1 +1,37 @@
+SELECT *
+FROM met
+LIMIT 10;
 
+SELECT COUNT(*)
+FROM met
+WHERE department = 'American Decorative Arts';
+
+SELECT COUNT(*)
+FROM met
+WHERE category LIKE '%celery%';
+
+SELECT title, medium
+FROM met
+ORDER BY date
+LIMIT 10;
+
+SELECT country, COUNT(*) AS collection_num
+FROM met
+WHERE country IS NOT NULL
+GROUP BY country
+ORDER BY collection_num DESC
+LIMIT 10;
+
+SELECT country, COUNT(*) AS collection_num
+FROM met
+WHERE country IS NOT NULL
+GROUP BY country
+HAVING collection_num > 100
+ORDER BY collection_num DESC
+LIMIT 10;
+
+SELECT medium, COUNT(*) AS collection_num
+FROM met
+WHERE medium LIKE '%gold%' OR medium LIKE '%silver%'
+GROUP BY medium
+ORDER BY collection_num DESC;
