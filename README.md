@@ -1,6 +1,6 @@
 # SQL_CalculatingAggregates
 
-This repo is intended to represent my SQL skill using projects provided by Codecademy. All the projects is from the "Analyze Real Data with SQL" course and "Advanced SQL" course.
+This repo is intended to represent my SQL skill using projects provided by Codecademy. All the projects is from the "Calculating Aggregates" course.
 
 ## Project 1: Trend in Startups
 Howdy! It’s your first day as a TechCrunch reporter. Your first task is to write an article on the rising trends in the startup world.
