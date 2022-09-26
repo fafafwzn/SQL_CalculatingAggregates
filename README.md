@@ -28,3 +28,25 @@ The preview of the table is as below.
 ![n](https://github.com/fafafwzn/SQL_CalculatingAggregates/blob/main/met.PNG)
 
 Here is the <a href="https://github.com/fafafwzn/SQL_CalculatingAggregates/blob/main/tasks2.txt" target="_blank">tasks</a> and the <a href="https://github.com/fafafwzn/SQL_CalculatingAggregates/blob/main/queries2.txt" target="_blank">queries</a> I have made.
+
+## Project 3: Hacker News
+Hacker News is a popular website run by Y Combinator. It’s widely known by people in the tech industry as a community site for sharing news, showing off projects, asking questions, among other things.
+In this project, you will be working with a table named hacker_news that contains stories from Hacker News since its launch in 2007. It has the following columns:
+•	title: the title of the story
+•	user: the user who submitted the story
+•	score: the score of the story
+•	timestamp: the time of the story
+•	url: the link of the story
+This data was kindly made publicly available under the <a href="https://opensource.org/licenses/MIT/" target="_blank">MIT license</a>.
+The preview of the table is as below.
+![n](https://github.com/fafafwzn/SQL_CalculatingAggregates/blob/main/hacker_news.PNG)
+
+Here is the <a href="https://github.com/fafafwzn/SQL_CalculatingAggregates/blob/main/tasks3.txt" target="_blank">tasks</a> and the <a href="https://github.com/fafafwzn/SQL_CalculatingAggregates/blob/main/queries3.txt" target="_blank">queries</a> I have made.
+
+## Project 4: Cryptocurrency Exchange
+Fiddy Cent is a digital currency exchange headquartered in Neo Tokyo. They broker exchanges of Bitcoin, Bitcoin Cash, Ethereum, and Litecoin with fiat currencies in around 50 countries.
+Help them analyze their January ledger data using SQL aggregate functions! You are given the transactions table, which contains both money-in and money-out transactions.
+The preview of the table is as below.
+![n](https://github.com/fafafwzn/SQL_CalculatingAggregates/blob/main/transactions.PNG)
+
+Here is the <a href="https://github.com/fafafwzn/SQL_CalculatingAggregates/blob/main/tasks4.txt" target="_blank">tasks</a> and the <a href="https://github.com/fafafwzn/SQL_CalculatingAggregates/blob/main/queries4.txt" target="_blank">queries</a> I have made.
